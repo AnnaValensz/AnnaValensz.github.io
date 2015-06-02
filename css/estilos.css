@@ -162,20 +162,18 @@ footer
 	#yo
 	{
 		max-width: 40%;
-		margin: 0 auto;
 		border-radius: 10px;
 		box-shadow: 3px 3px;
-		/*margin-left: 25%;
-		margin-top: -50px;*/
+		margin-left: 20%;
 	}
 	#datosMios
 	{
-		max-width: 95%;
+		max-width: 80%;
 		margin: 0 auto;
 		margin-top: 20px;
 	}
 	.paginas
 	{
-		max-width: 80%;
+		max-width: 70%;
 	}
 }
