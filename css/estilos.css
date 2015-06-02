@@ -1,0 +1,162 @@
+*
+{
+	max-width: 1024px; 
+	margin: 0 auto;
+	font-size: 14px;
+}
+#home
+{
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+}
+.imgHome
+{
+	max-width: 100%;
+	position: relative;
+	min-width: 100%;
+}
+#sectionInicio
+{
+	text-align: center;
+}
+.headpng
+{
+	max-width: 100%;
+	position: relative;
+	min-width: 100%;
+}
+#yo
+{
+	max-width: 30%; /*USAR PORCIENTO, NO PX*/
+	margin-left: 25%;
+	margin-top: -50px;
+	border-radius: 10px;
+	box-shadow: 3px 3px;
+}
+#datosMios
+{
+	max-width: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.titulos
+{
+	color: #751C92;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+}
+.paginas
+{
+	max-width: 50%;
+	
+}
+.subtitulos
+{
+	color: #591763;
+	font-size: 1.7em;
+}
+.textos
+{
+	color: #CB2171;
+	font-size: 1.2em;
+}
+.separador
+{
+	margin: 0 auto;
+	max-width: 80%;
+}
+header nav
+{
+	text-align: center;
+	position: relative;
+}
+header nav ul li
+{
+	background-color: #6DEDCA;
+	display: inline-block;
+	margin-left: 25px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+#BACK
+{
+	background-color: #6DEDCA;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+header nav ul li:hover
+{
+	display: inline-block;
+	text-align: center;
+	background: #FFFFFF;
+}
+body section
+{
+	display: none;
+	text-align: center;
+}
+section #datosMios div
+{
+	padding-top: 10px;
+	max-width: 80%;
+}
+section article div
+{
+	display: inline-block;
+	max-width: 45%;
+}
+#sectionWho
+{
+	text-align: left;
+}
+section table tr td
+{
+	max-width: 45%;
+}
+footer
+{
+	float: right;
+	color: #A60CCD;
+	padding: 30px;
+}
+
+@media screen and (max-width: 820px){
+	body
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	header nav ul li 
+	{
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		padding:10px 0;
+	}
+	header nav
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	header nav ul
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	header nav ul li:hover
+	{
+		display: block;
+		text-align: center;
+		background: #FFFFFF;
+		width:100%;
+		margin: 0 auto;
+	}
+	section article div
+	{
+		display: block;
+		max-width: 90%;
+	}
+}
