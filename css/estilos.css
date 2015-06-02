@@ -159,4 +159,19 @@ footer
 		display: block;
 		max-width: 90%;
 	}
+	#yo
+	{
+		max-width: 40%;
+		margin: 0 auto;
+		border-radius: 10px;
+		box-shadow: 3px 3px;
+		/*margin-left: 25%;
+		margin-top: -50px;*/
+	}
+	#datosMios
+	{
+		max-width: 70%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
 }
